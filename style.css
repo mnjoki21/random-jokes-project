@@ -1,5 +1,6 @@
+ 
  #main{
-    background-color:#d8b89e ; 
+    background-image: url(https://wallpapercave.com/wp/wp2132616.png); 
     
  }
  
@@ -43,4 +44,16 @@ text-align: center;
 margin-left: 450px; 
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
+ } 
+
+ .img-container {
+    float: left;
+    width: 20%;
+    padding: 8px;
+ } 
+ .row::after {
+    content: "";
+    display: table ;
  }
+
+ 
