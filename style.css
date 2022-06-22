@@ -1,5 +1,5 @@
  #main{
-    background-color:#F4FBDA ; 
+    background-color:#edeea2 ; 
     
  }
  
@@ -24,6 +24,7 @@ font-size: 30px;
     border-radius: 4px;
     cursor: pointer; 
     align-self: flex-end;
+    
 } 
 
  .joke-title { 
@@ -35,9 +36,5 @@ border-radius: nullpx;
 text-align: center;
 margin-left: 450px; 
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-/* height: 29px;
-width: 215px;
-left: -179px;
-top: -13px;
-border-radius: nullpx; */
+
  }
