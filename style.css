@@ -1,7 +1,26 @@
  
  #main{
-    background-image: url(https://wallpapercave.com/wp/wp2132616.png); 
-    
+    background-image: url(https://wallpapercave.com/wp/wp2132616.png);   
+ } 
+
+ .header {
+    text-align: center;
+    margin: auto;
+    padding: 5em;
+    font-size: 30px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ } 
+
+ .text {
+    text-align: center;
+    padding: 4rem; 
+    margin-top: 3px;
+ } 
+
+ .joke-btn {
+    text-align: center;
+    width: fit-content;
+    border-radius: 30px;
  }
  
  
