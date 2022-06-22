@@ -16,12 +16,13 @@ font-size: 30px;
 
 .joke-btn{
     text-align: center;
-    background-color: rgb(186, 156, 206);
+    background-color: rgb(159, 168, 28);
     color: rgb(5, 5, 5);
     margin-top: 50px; 
     padding: 3em; 
     width: fit-content;
     margin-left: 550px;
+    margin-right: 100px;
     border-radius: 4px;
     cursor: pointer; 
     align-self: center auto;
