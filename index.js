@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", () => {
+  getJoke();
+});
+
 const like = document.getElementById("countLikes");
 const likeBtn = document.getElementById("btn");
 const joke = document.getElementById("joke");
@@ -13,15 +17,14 @@ let getJoke = () => {
 };
 jokeButton.addEventListener("click", getJoke);
 
-// getJoke();
 let incrementCount = () => {
   counter++;
-  // for (let count = 0; count <= 10; count++)
   console.log(counter);
-  likeBtn.innerHTML = counter;
-
+  like.innerHTML = counter;
 };
-likeBtn.addEventListener("click", incrementCount);
+likeBtn.addEventListener("click", incrementCount); 
 
-// document.getElementById("btn").addEventListener("click", ()=>{
-//   incrementCount});
+alert ('GET READY TO LAUGH!') 
+
+
+
