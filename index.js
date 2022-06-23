@@ -6,8 +6,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const like = document.getElementById("countLikes");
 const likeBtn = document.getElementById("btn");
+
+
 const joke = document.getElementById("joke");
+
 const jokeButton = document.getElementById("joke-btn");
+
+//url for the API
 const url = "https://v2.jokeapi.dev/joke/Programming,Dark,Pun?type=single";
 
 let counter = 0;
