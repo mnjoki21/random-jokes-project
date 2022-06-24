@@ -32,7 +32,7 @@ let incrementCount = () => {
 };
 likeBtn.addEventListener("click", incrementCount); 
  
-// adding an alert
+
 alert ('GET READY TO LAUGH!') 
 
 
